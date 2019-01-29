@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    overflow-x: hidden;
     &__square{
         display: flex;
         align-items: center;
@@ -26,6 +26,7 @@
 
         &-title{
             font-size: 6rem;
+            letter-spacing: 6px; 
         }
 
         &-text{
@@ -42,7 +43,7 @@
                 width: 65px;
                 position: absolute;
                 bottom: 50%;
-                left: -85px;
+                left: -84px;
             }
 
             &::after{
@@ -52,9 +53,168 @@
                 width: 65px;
                 position: absolute;
                 bottom: 50%;
-                right: 83px;
+                right: 82px;
             }
 
         }
     }
 }
+
+.section-2{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 800px;
+        &-title{
+            font-size: 3rem;
+        }
+
+        &-subtitle{
+            font-weight: bold;
+            margin: 10px;
+            position: relative;
+            
+           &::before{
+            content: "";
+            background: black;
+            height: 2px;
+            width: 90px;
+            position: absolute;
+            bottom: 50%;
+            left: -95px;
+        }
+
+        &::after{
+            content: "";
+            background: black;
+            height: 2px;
+            width: 90px;
+            position: absolute;
+            bottom: 50%;
+            right: -95px;
+        }
+
+        }
+
+        &-text{
+        
+        }
+
+        &-button{
+            margin: 20px;
+            background-color: white;
+            border: 1px solid black;
+            padding: 15px 35px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 500ms ease;
+            
+            &:hover {
+              box-shadow: 0 -4em 0 0 steelblue inset;
+              color: white;
+            }
+        }
+
+    }
+}
+
+.section-3{
+    min-height: 100vh;
+    background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyB2.jpg');
+    background-position: center;
+}
+
+.section-4{
+    min-height: 60vh;
+    padding: 20px;
+    &__img{
+        height: 60vh;
+        background-image: url('/img/allyB3.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 550px;
+    }
+
+    &__info{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-title{
+           font-size: 3rem;
+           font-weight: normal;
+           position: relative;
+
+           &::before{
+            content: "";
+            background: black;
+            height: 2px;
+            width: 110px;
+            position: absolute;
+            bottom: 2%;
+            left: 5px;
+        }
+
+        }
+        
+        &-text{
+            margin: 20px 0;
+            font-weight: bold;
+            letter-spacing: 1px;
+
+        }
+
+        &-button{
+            margin: 20px 0;
+            background-color: white;
+            border: 1px solid black;
+            width: 150px;
+            height: 40px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 500ms ease;
+            
+            &:hover {
+              box-shadow: 0 -4em 0 0 steelblue inset;
+              color: white;
+            }
+        }
+    }
+   
+}
+
+.section-5{
+    min-height: 20vh;
+    background: black;
+}
+
+.section-6{
+    min-height: 100vh;
+    background: white;
+
+}
+.section-7{
+    min-height: 100vh;
+    background: $gray;
+}
+
+.section-8{
+    min-height: 100vh;
+      background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyB4.png');
+}
+
+@media only screen and (max-width: 700px) {
+   .section-4__img{
+       background-size: 350px;
+   }
+  }

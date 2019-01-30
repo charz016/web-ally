@@ -57,7 +57,15 @@
             }
 
         }
+
+        &-arrow{
+            animation: bounce 2s infinite;
+            position: absolute;
+            bottom: -100%;
+            cursor: pointer;
+        }
     }
+    
 }
 
 .section-2{
@@ -129,8 +137,62 @@
 
 .section-3{
     min-height: 100vh;
-    background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyB2.jpg');
+    background: linear-gradient(to right,$blue 0,$purple 100%),url('/img/allyB2.jpg');
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__wrap{
+        display: flex;   
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 220px;
+            width: 320px;
+            margin: 20px 25px; 
+            box-shadow: 1px 1px 2px 1px #888888;
+            background: white;
+            border-color: black;
+
+            &__container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 250px;
+                height: 200px;
+                &-circle{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    background:black;
+                    color:white;
+                    
+                    &-icon{
+                        font-size: 35px;
+                    }
+                }
+                &-title{
+                    margin: 10px;
+                    font-weight: bold;
+                }
+                
+                &-text{
+                    text-align: center;
+                }
+            }
+        }
+    
+    }
 }
 
 .section-4{
@@ -149,6 +211,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        &__container{
+            max-width: 500px;
+            margin: 0 auto;
         &-title{
            font-size: 3rem;
            font-weight: normal;
@@ -190,22 +256,230 @@
             }
         }
     }
-   
+}
 }
 
 .section-5{
-    min-height: 20vh;
+    min-height: 220px;
     background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__wrap{
+        display: flex;   
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        &__container{
+            width: 300px;
+           height: 120px;
+            &-number{
+                font-size: 3.5rem;
+            }
+        
+            &-text{
+                margin: 10px 0;
+                font-weight: bold;
+                position: relative;
+        
+                &::before{
+                    content: "";
+                    background: white;
+                    height: 1px;
+                    width: 55px;
+                    position: absolute;
+                   top: -10px;
+                   right: 135px;
+                   
+                }
+            }
+        }
+    }
+
+    
 }
 
 .section-6{
-    min-height: 100vh;
+    min-height: 90vh;
     background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+   
+    &__title{
+        font-weight: normal;
+        margin: 40px 0;
+        font-size: 3rem;
+        position: relative;
+        
+       &::before{
+        content: "";
+        background: black;
+        height: 1px;
+        width: 80px;
+        position: absolute;
+        bottom: 50%;
+        left: -85px;
+    }
+
+    &::after{
+        content: "";
+        background: black;
+        height: 1px;
+        width: 80px;
+        position: absolute;
+        bottom: 50%;
+        right: -85px;
+    }
+    }
+
+   &__wrap{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+       &-card{
+        height: 380px;
+        width: 300px;
+        margin: 10px;
+        box-shadow: 1px 1px 1px 1px #888888;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        &__container{
+            width: 260px;
+            height: 250px;
+            margin: 0 auto;
+            text-align: center;
+             &-icon{
+                font-size: 2rem;
+            }
+            &-title{
+                font-size: 2rem;
+                margin: 10px 0;
+            }
+            &-text{
+
+            }
+        }
+        
+    &:nth-child(1){
+        background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyPH.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &:nth-child(2){
+        background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyDS.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &:nth-child(3){
+        background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyPL.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    }
+   }
 
 }
 .section-7{
     min-height: 100vh;
     background: $gray;
+    
+    &__container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        &__content{
+            display: flex;
+            width: 300px;
+            margin:  40px 0px;
+            &-check{
+                background: black;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid;
+                height: 60px; 
+                min-width: 60px; 
+                border-radius: 50%;
+                margin: 0 22px;
+            }
+            
+            &__info{
+                &-title{
+                    font-weight: bold;
+                    text-align: right;
+                }
+            }
+           
+        }
+    }
+
+    &__container-2{
+        height: 100vh;
+        background-image: url('/img/phone.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 280px 550px;
+      
+        &-img{
+            background: linear-gradient(to right,$blue 0,$purple 100%),url('/img/allyB2.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 258px 450px;
+            height: 100vh;
+        }
+    }
+
+
+    &__container-3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        &__content{
+            display: flex;
+            width: 300px;
+            margin:  40px 0px;
+            &-check{
+                background: black;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid;
+                height: 60px; 
+                min-width: 60px; 
+                border-radius: 50%;
+                margin: 0 10px;
+               
+            }
+
+            &__info{
+                &-title{
+                    font-weight: bold;
+                    
+                }
+            }
+        }
+    }
+
+
+
 }
 
 .section-8{
@@ -213,8 +487,45 @@
       background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyB4.png');
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
+
+    .section-7__container-1{
+        align-items: center;
+    }
+
+    .section-7__container-3{
+        align-items: center;
+    }
+
    .section-4__img{
        background-size: 350px;
    }
+  }
+
+  
+  @media only screen and (max-width: 1023px) {
+
+    .section-7__container-1{
+        align-items: center;
+    }
+
+    .section-7__container-3{
+        align-items: center;
+    }
+
+
+  }
+
+
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
   }

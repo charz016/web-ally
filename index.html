@@ -8,6 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <title>Document</title>
 </head>
 
@@ -16,9 +21,10 @@
         <div class="section-1__square">
             <h1 class="section-1__square-title">Ally</h1>
             <p class="section-1__square-text"> HAS IT ALL</p>
+            <i onclick="myFunction()" class="section-1__square-arrow fa fa-arrow-down fa-2x"></i>
         </div>
     </section>
-    <section class="section-2">
+    <section class="section-2" id="section-2">
         <div class="section-2__container">
             <h1 class="section-2__container-title">Meet Ally</h1>
             <p class="section-2__container-subtitle">DIVI CHILD THEME</p>
@@ -31,43 +37,288 @@
     </section>
 
     <section class="section-3">
+        <div class="section-3__wrap">
+            <div class="section-3__wrap-card">
+                <div class="section-3__wrap-card__container">
+                    <div class="section-3__wrap-card__container-circle">
+                        <i class="section-3__wrap-card__container-circle-icon far fa-check-square"></i>
+                    </div>
+                    <p class="section-3__wrap-card__container-title">MULTIPURPOSE</p>
+                    <p class="section-3__wrap-card__container-text">
+                        Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                    </p>
+                </div>
+            </div>
 
+            <div class="section-3__wrap-card">
+                <div class="section-3__wrap-card__container">
+                    <div class="section-3__wrap-card__container-circle">
+                        <i class="section-3__wrap-card__container-circle-icon fas fa-compress-arrows-alt"></i>
+                    </div>
+                    <p class="section-3__wrap-card__container-title">PIXEL-PERFECT</p>
+                    <p class="section-3__wrap-card__container-text">
+                        Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-3__wrap-card">
+                <div class="section-3__wrap-card__container">
+                    <div class="section-3__wrap-card__container-circle">
+                        <i class="section-3__wrap-card__container-circle-icon far fa-star"></i>
+                    </div>
+                    <p class="section-3__wrap-card__container-title">CLEAN & ELEGANT</p>
+                    <p class="section-3__wrap-card__container-text">
+                        Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-3__wrap-card">
+                <div class="section-3__wrap-card__container">
+                    <div class="section-3__wrap-card__container-circle">
+                        <i class="section-3__wrap-card__container-circle-icon far fa-file-alt"></i>
+                    </div>
+                    <p class="section-3__wrap-card__container-title">MULTIPLE PAGE LAYOUTS</p>
+                    <p class="section-3__wrap-card__container-text">
+                        Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-3__wrap-card">
+                <div class="section-3__wrap-card__container">
+                    <div class="section-3__wrap-card__container-circle">
+                        <i class="section-3__wrap-card__container-circle-icon fas fa-mouse-pointer"></i>
+                    </div>
+                    <p class="section-3__wrap-card__container-title">EASY TO CUSTOMIZE</p>
+                    <p class="section-3__wrap-card__container-text">
+                        Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-3__wrap-card">
+                <div class="section-3__wrap-card__container">
+                    <div class="section-3__wrap-card__container-circle">
+                        <i class="section-3__wrap-card__container-circle-icon fas fa-camera-retro"></i>
+                    </div>
+                    <p class="section-3__wrap-card__container-title">ALL IMAGES INCLUDED</p>
+                    <p class="section-3__wrap-card__container-text">
+                        Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                    </p>
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
     <section class="section-4">
         <div class="row col-xs-12">
-            <div class="section-4__img col-xs-12 col-sm-7">
+            <div class="section-4__img col-xs-12 col-md-7">
 
             </div>
 
-            <div class="section-4__info col-xs-12 col-sm-5">
-                <h1 class="section-4__info-title">A Few Words</h1>
-                <p class="section-4__info-text">Ally will allow you to quickly get a website up and running with
-                    minimal effort.
-                    The one-click importer will help you set it up in no time. After that,
-                    you can easily make it your own, by choosing the colors in Theme Customizer.
-                </p>
-                <button class="section-4__info-button">READ MORE</button>
+            <div class="section-4__info col-xs-12 col-md-5">
+                <div class="section-4__info__container">
+                    <h1 class="section-4__info__container-title">A Few Words</h1>
+                    <p class="section-4__info__container-text">Ally will allow you to quickly get a website up and
+                        running with
+                        minimal effort.
+                        The one-click importer will help you set it up in no time. After that,
+                        you can easily make it your own, by choosing the colors in Theme Customizer.
+                    </p>
+                    <button class="section-4__info__container-button">READ MORE</button>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="section-5">
+        <div class="section-5__wrap">
+            <div class="section-5__wrap__container">
+                <span class="counter section-5__wrap__container-number">13</span>
+                <p class="section-5__wrap__container-text">YEARS IN BUSINESS</p>
+            </div>
+
+            <div class="section-5__wrap__container">
+                <span class="counter section-5__wrap__container-number">540</span>
+                <p class="section-5__wrap__container-text">PROJECTS DONE</p>
+            </div>
+
+            <div class="section-5__wrap__container">
+                <span class="counter section-5__wrap__container-number">29</span>
+                <p class="section-5__wrap__container-text">AWARDS WON</p>
+            </div>
+
+            <div class="section-5__wrap__container">
+                <span class="counter section-5__wrap__container-number">100</span><span style="font-size: 3rem">%</span>
+                <p class="section-5__wrap__container-text">HAPPY CLIENTS</p>
+            </div>
+
+        </div>
 
     </section>
 
     <section class="section-6">
+        <h1 class="section-6__title">Services</h1>
+
+        <div class="section-6__wrap">
+
+            <div class="section-6__wrap-card">
+                <div class="section-6__wrap-card__container">
+                    <i class="section-6__wrap-card__container-icon fas fa-camera"></i>
+                    <p class="section-6__wrap-card__container-title">PHOTOGRAPHY</p>
+                    <p class="section-6__wrap-card__container-text">Quisque velit nisi, pretium ut lacinia in,
+                        elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia
+                        Curae; Donec velit neque,
+                        auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-6__wrap-card">
+                <div class="section-6__wrap-card__container">
+                    <i class="section-6__wrap-card__container-icon fas fa-pencil-alt"></i>
+                    <p class="section-6__wrap-card__container-title">DESIGN</p>
+                    <p class="section-6__wrap-card__container-text">Quisque velit nisi, pretium ut lacinia in,
+                        elementum id enim.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-6__wrap-card">
+                <div class="section-6__wrap-card__container">
+                    <i class="section-6__wrap-card__container-icon far fa-lightbulb"></i>
+                    <p class="section-6__wrap-card__container-title">PLANNING</p>
+                    <p class="section-6__wrap-card__container-text">Quisque velit nisi, pretium ut lacinia in,
+                        elementum id
+                        enim.
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                        Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                    </p>
+                </div>
+            </div>
+        </div>
 
     </section>
 
     <section class="section-7">
+
+        <div class="row col-xs-12">
+            <div class="section-7__container-1 col-xs-12 col-md-4">
+
+                <div class="section-7__container-1__content">
+                    <div class="section-7__container-1__content__info">
+                        <p class="section-7__container-1__content__info-title">THIS IS GREAT</p>
+                        <p class="section-7__container-1__content__info-text">
+                            Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                        </p>
+                    </div>
+                    <div class="section-7__container-1__content-check">
+                        <i class="fas fa-check fa-md"></i>
+                    </div>
+                </div>
+
+                <div class="section-7__container-1__content">
+                    <div class="section-7__container-1__content__info">
+                        <p class="section-7__container-1__content__info-title">THIS IS GREAT</p>
+                        <p class="section-7__container-1__content__info-text">
+                            Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                        </p>
+                    </div>
+                    <div class="section-7__container-1__content-check">
+                        <i class="fas fa-check fa-md"></i>
+                    </div>
+                </div>
+
+                <div class="section-7__container-1__content">
+                    <div class="section-7__container-1__content__info">
+                        <p class="section-7__container-1__content__info-title">THIS IS GREAT</p>
+                        <p class="section-7__container-1__content__info-text">
+                            Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                        </p>
+                    </div>
+                    <div class="section-7__container-1__content-check">
+                        <i class="fas fa-check fa-md"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section-7__container-2 col-xs-12 col-md-4">
+                <div class="section-7__container-2-img">
+
+                </div>
+            </div>
+
+            <div class="section-7__container-3 col-xs-12 col-md-4">
+
+                <div class="section-7__container-3__content">
+                    <div class="section-7__container-3__content-check">
+                        <i class="fas fa-check fa-md"></i>
+                    </div>
+                    <div class="section-7__container-3__content__info">
+                        <p class="section-7__container-3__content__info-title">THIS IS GREAT</p>
+                        <p class="section-7__container-3__content__info-text">
+                            Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-7__container-3__content">
+                    <div class="section-7__container-3__content-check">
+                        <i class="fas fa-check fa-md"></i>
+                    </div>
+                    <div class="section-7__container-3__content__info">
+                        <p class="section-7__container-3__content__info-title">THIS IS GREAT</p>
+                        <p class="section-7__container-3__content__info-text">
+                            Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-7__container-3__content">
+                    <div class="section-7__container-3__content-check">
+                        <i class="fas fa-check fa-md"></i>
+                    </div>
+                    <div class="section-7__container-3__content__info">
+                        <p class="section-7__container-3__content__info-title">THIS IS GREAT</p>
+                        <p class="section-7__container-3__content__info-text">
+                            Curabitur non ntulla sit amet nisl tempus convallis quis ac lectus.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        </div>
+
+
+
 
     </section>
 
     <section class="section-8">
 
     </section>
+
+    <script type="text/javascript">
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+        });
+
+        function myFunction() {
+            var elmnt = document.getElementById("section-2");
+            elmnt.scrollIntoView({ block: "end", behavior: "smooth" });
+        }
+    </script>
 
 </body>
 

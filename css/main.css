@@ -621,11 +621,128 @@
         font-weight: bold; }
 
 .footer {
-  min-height: 100vh;
+  min-height: 90vh;
   background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("/img/allyB4.png");
   background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB4.png");
   background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB4.png");
   background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB4.png"); }
+  .footer__section-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: white; }
+    .footer__section-1__info {
+      margin: 0 auto;
+      max-width: 500px; }
+    .footer__section-1-title {
+      font-size: 2rem;
+      margin: 40px 0;
+      position: relative; }
+      .footer__section-1-title::before {
+        content: "";
+        background: white;
+        height: 1px;
+        width: 110px;
+        position: absolute;
+        bottom: 2%;
+        left: 5px; }
+    .footer__section-1__social-icon {
+      font-size: 1.5rem;
+      margin: 0 10px; }
+    .footer__section-1-text {
+      font-size: 1.2rem;
+      margin: 20px 0; }
+    .footer__section-1-bottom {
+      margin-top: 190px; }
+  .footer__section-2 {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .footer__section-2-title {
+      font-size: 3rem;
+      margin: 40px 0; }
+    .footer__section-2-input {
+      width: 70%;
+      margin: 10px 0;
+      padding: 16px;
+      opacity: 5;
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid white;
+      color: black; }
+      .footer__section-2-input::-webkit-input-placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+      .footer__section-2-input:-ms-input-placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+      .footer__section-2-input::-ms-input-placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+      .footer__section-2-input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+    .footer__section-2-area {
+      width: 70%;
+      height: 120px;
+      margin: 10px 0;
+      padding: 16px;
+      opacity: 5;
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid white;
+      color: black; }
+      .footer__section-2-area::-webkit-input-placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+      .footer__section-2-area:-ms-input-placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+      .footer__section-2-area::-ms-input-placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+      .footer__section-2-area::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial; }
+    .footer__section-2-button {
+      margin: 20px 0;
+      background-color: white;
+      border: 1px solid black;
+      padding: 15px 35px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      -webkit-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+      width: 210px; }
+      .footer__section-2-button:hover {
+        -webkit-box-shadow: 0 -4em 0 0 black inset;
+        box-shadow: 0 -4em 0 0 black inset;
+        color: white; }
 
 @media only screen and (max-width: 768px) {
   .section-7__container-1 {

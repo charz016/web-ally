@@ -21,7 +21,7 @@
         <div class="section-1__square">
             <h1 class="section-1__square-title">Ally</h1>
             <p class="section-1__square-text"> HAS IT ALL</p>
-            <i onclick="myFunction()" class="section-1__square-arrow fa fa-arrow-down fa-2x"></i>
+            <i onclick="goSection2()" class="section-1__square-arrow fa fa-arrow-down fa-2x"></i>
         </div>
     </section>
     <section class="section-2" id="section-2">
@@ -207,7 +207,7 @@
     </section>
 
     <section class="section-7">
-
+        <h1 class="section-7__title">Features</h1>
         <div class="row col-xs-12">
             <div class="section-7__container-1 col-xs-12 col-md-4">
 
@@ -246,17 +246,19 @@
                         <i class="fas fa-check fa-md"></i>
                     </div>
                 </div>
-
             </div>
 
             <div class="section-7__container-2 col-xs-12 col-md-4">
                 <div class="section-7__container-2-img">
-
+                    <div class="section-7__container-2-img__square">
+                        <h1 class="section-7__container-2-img__square-title">Ally</h1>
+                        <p class="section-7__container-2-img__square-text"> HAS IT ALL</p>
+                        <i onclick="goSection8()" class="section-7__container-2-img__square-arrow fa fa-arrow-down fa-2x"></i>
+                    </div>
                 </div>
             </div>
 
             <div class="section-7__container-3 col-xs-12 col-md-4">
-
                 <div class="section-7__container-3__content">
                     <div class="section-7__container-3__content-check">
                         <i class="fas fa-check fa-md"></i>
@@ -292,21 +294,24 @@
                         </p>
                     </div>
                 </div>
-
-
             </div>
-
         </div>
         </div>
-
-
-
-
     </section>
 
-    <section class="section-8">
 
-    </section>
+    <footer class="footer">
+        <div class="row col-xs-12">
+            <section class="footer__section-1 col-xs-12 col-md-6">
+
+            </section>
+
+            <section class="footer__section-2 col-xs-12 col-md-6">
+
+            </section>
+
+        </div>
+    </footer>
 
     <script type="text/javascript">
         $('.counter').counterUp({
@@ -314,10 +319,16 @@
             time: 2000
         });
 
-        function myFunction() {
+        function goSection2() {
             var elmnt = document.getElementById("section-2");
             elmnt.scrollIntoView({ block: "end", behavior: "smooth" });
         }
+
+        function goSection8() {
+            var elmnt = document.getElementById("section-8");
+            elmnt.scrollIntoView({ block: "end", behavior: "smooth" });
+        }
+
     </script>
 
 </body>

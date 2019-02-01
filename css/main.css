@@ -7,10 +7,10 @@ html, body {
 
 .section-1 {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("/img/allyB.jpg");
-  background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB.jpg");
-  background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB.jpg");
-  background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB.jpg");
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("../img/allyB.jpg");
+  background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyB.jpg");
+  background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyB.jpg");
+  background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyB.jpg");
   background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -140,10 +140,10 @@ html, body {
 
 .section-3 {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(24, 165, 255, 0.5)), to(rgba(153, 0, 224, 0.5))), url("/img/allyB2.jpg");
-  background: -webkit-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("/img/allyB2.jpg");
-  background: -o-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("/img/allyB2.jpg");
-  background: linear-gradient(to right, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("/img/allyB2.jpg");
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(24, 165, 255, 0.5)), to(rgba(153, 0, 224, 0.5))), url("../img/allyB2.jpg");
+  background: -webkit-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("../img/allyB2.jpg");
+  background: -o-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("../img/allyB2.jpg");
+  background: linear-gradient(to right, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("../img/allyB2.jpg");
   background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,7 +232,7 @@ html, body {
   padding: 20px; }
   .section-4__img {
     height: 60vh;
-    background-image: url("/img/allyB3.jpg");
+    background-image: url("../img/allyB3.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 550px; }
@@ -403,26 +403,26 @@ html, body {
           font-size: 2rem;
           margin: 10px 0; }
       .section-6__wrap-card:nth-child(1) {
-        background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("/img/allyPH.jpg");
-        background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyPH.jpg");
-        background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyPH.jpg");
-        background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyPH.jpg");
+        background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("../img/allyPH.jpg");
+        background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyPH.jpg");
+        background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyPH.jpg");
+        background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyPH.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
       .section-6__wrap-card:nth-child(2) {
-        background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("/img/allyDS.jpg");
-        background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyDS.jpg");
-        background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyDS.jpg");
-        background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyDS.jpg");
+        background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("../img/allyDS.jpg");
+        background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyDS.jpg");
+        background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyDS.jpg");
+        background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyDS.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
       .section-6__wrap-card:nth-child(3) {
-        background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("/img/allyPL.jpg");
-        background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyPL.jpg");
-        background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyPL.jpg");
-        background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyPL.jpg");
+        background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("../img/allyPL.jpg");
+        background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyPL.jpg");
+        background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyPL.jpg");
+        background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyPL.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
@@ -507,15 +507,15 @@ html, body {
         text-align: right; }
   .section-7__container-2 {
     height: 100vh;
-    background-image: url("/img/phone.png");
+    background-image: url("../img/phone.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 270px 550px; }
     .section-7__container-2-img {
-      background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(24, 165, 255, 0.5)), to(rgba(153, 0, 224, 0.5))), url("/img/allyB2.jpg");
-      background: -webkit-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("/img/allyB2.jpg");
-      background: -o-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("/img/allyB2.jpg");
-      background: linear-gradient(to right, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("/img/allyB2.jpg");
+      background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(24, 165, 255, 0.5)), to(rgba(153, 0, 224, 0.5))), url("../img/allyB2.jpg");
+      background: -webkit-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("../img/allyB2.jpg");
+      background: -o-linear-gradient(left, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("../img/allyB2.jpg");
+      background: linear-gradient(to right, rgba(24, 165, 255, 0.5) 0, rgba(153, 0, 224, 0.5) 100%), url("../img/allyB2.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: 258px 450px;
@@ -625,10 +625,10 @@ html, body {
 
 .footer {
   min-height: 90vh;
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("/img/allyB4.png");
-  background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB4.png");
-  background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB4.png");
-  background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("/img/allyB4.png"); }
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(153, 0, 224, 0.5)), to(rgba(24, 165, 255, 0.5))), url("../img/allyB4.png");
+  background: -webkit-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyB4.png");
+  background: -o-linear-gradient(left, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyB4.png");
+  background: linear-gradient(to right, rgba(153, 0, 224, 0.5) 0, rgba(24, 165, 255, 0.5) 100%), url("../img/allyB4.png"); }
   .footer__section-1 {
     display: -webkit-box;
     display: -ms-flexbox;

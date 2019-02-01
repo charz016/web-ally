@@ -11,7 +11,7 @@ html, body {
 
 .section-1{
     min-height: 100vh;
-    background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyB.jpg');
+    background: linear-gradient(to right,$purple 0,$blue 100%),url('../img/allyB.jpg');
     background-position: center;
     display: flex;
     align-items: center;
@@ -141,7 +141,7 @@ html, body {
 
 .section-3{
     min-height: 100vh;
-    background: linear-gradient(to right,$blue 0,$purple 100%),url('/img/allyB2.jpg');
+    background: linear-gradient(to right,$blue 0,$purple 100%),url('../img/allyB2.jpg');
     background-position: center;
     display: flex;
     align-items: center;
@@ -204,7 +204,7 @@ html, body {
     padding: 20px;
     &__img{
         height: 60vh;
-        background-image: url('/img/allyB3.jpg');
+        background-image: url('../img/allyB3.jpg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 550px;
@@ -374,20 +374,20 @@ html, body {
         }
         
     &:nth-child(1){
-        background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyPH.jpg');
+        background: linear-gradient(to right,$purple 0,$blue 100%),url('../img/allyPH.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     &:nth-child(2){
-        background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyDS.jpg');
+        background: linear-gradient(to right,$purple 0,$blue 100%),url('../img/allyDS.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     &:nth-child(3){
-        background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyPL.jpg');
+        background: linear-gradient(to right,$purple 0,$blue 100%),url('../img/allyPL.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -467,13 +467,13 @@ html, body {
 
     &__container-2{
         height: 100vh;
-        background-image: url('/img/phone.png');
+        background-image: url('../img/phone.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 270px 550px;
       
         &-img{
-            background: linear-gradient(to right,$blue 0,$purple 100%),url('/img/allyB2.jpg');
+            background: linear-gradient(to right,$blue 0,$purple 100%),url('../img/allyB2.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: 258px 450px;
@@ -578,7 +578,7 @@ html, body {
 
 .footer{
     min-height: 90vh;
-    background: linear-gradient(to right,$purple 0,$blue 100%),url('/img/allyB4.png');
+    background: linear-gradient(to right,$purple 0,$blue 100%),url('../img/allyB4.png');
   
     &__section-1{
         display: flex;
